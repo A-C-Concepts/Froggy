@@ -89,7 +89,7 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
 
 ### Render Blender
 <div>
-  <img src="img/woodbox.png" alt="Wood Box" width="1000px" height="auto">
+  <img src="img/woodbox.png" alt="Wood Box" width="1000px" height="auto"><br />
 </div>
 <div>
   <img src="img/wood.png" alt="Wood" width="auto" height="148px">
