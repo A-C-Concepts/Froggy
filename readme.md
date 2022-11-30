@@ -124,6 +124,13 @@ See the [open issues](https://github.com/A-C-Concepts/Froggy/issues) for a full 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Render Blender
+
+<img src="img/wood.png" alt="Wood" width="auto" height="150px">
+I learned and I learn three.js with the courses of bruno simon, on three.js Journey. You can find it [here](https://threejs-journey.com/)
+
+
+<!-- ROADMAP -->
 
 <!-- LICENSE -->
 ## License
