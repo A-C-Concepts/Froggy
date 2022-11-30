@@ -87,6 +87,13 @@ For my 3D model, I used the "Realtime materials 2.0" material pack. You can find
 [![Three.JS Journey][threejsjourney-screenshot]][threejsjourney-url]
 I learned and I learn three.js with the courses of bruno simon, on three.js Journey. You can find it [here](https://threejs-journey.com/)
 
+### Render Blender
+
+<div>
+  <img src="img/wood.png" alt="Wood" width="auto" height="150px">
+  <img src="img/black.png" alt="Black" width="auto" height="150px">
+  <img src="img/woodbox.png" alt="Wood Box" width="auto" height="150px">
+</div>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -123,12 +130,6 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
 See the [open issues](https://github.com/A-C-Concepts/Froggy/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Render Blender
-
-<img src="img/wood.png" alt="Wood" width="auto" height="150px">
-I learned and I learn three.js with the courses of bruno simon, on three.js Journey. You can find it [here](https://threejs-journey.com/)
-
 
 <!-- ROADMAP -->
 
