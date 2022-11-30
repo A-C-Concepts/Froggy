@@ -5,7 +5,6 @@
 <!-- PROJECT SHIELDS -->
   [![Netlify Status][netlify-shield]][netlify-url]
   [![Issues][issues-shield]][issues-url]
-  [![Stargazers][stars-shield]][stars-url]
   [![Coffee][coffee-shield]][coffee-url]
   [![LinkedIn][linkedin-shield]][linkedin-url]
 
