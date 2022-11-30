@@ -102,6 +102,7 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
 
 - [x] Learn the basics of blender
     - [x] Modeling the tool precisely
+        - [ ] Modeling the last tool version
     - [x] Create / Apply textures and shadings
     - [x] Create a scene with the tool and make a good quality rendering
     - [x] Exported the file in gltf
