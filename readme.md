@@ -38,7 +38,7 @@
         <li><a href="#designed-with">Designed With</a></li>
         <li><a href="#blender-material">Blender Material</a></li>
         <li><a href="#threejs-course">ThreeJS Course</a></li>
-        <li><a href="#blender-render">Blender Render</a></li>
+        <li><a href="#render-blender">Render Blender</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
