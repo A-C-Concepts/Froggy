@@ -90,10 +90,10 @@ For my 3D model, I used the "Realtime materials 2.0" material pack. You can find
 I learned and I learn three.js with the courses of bruno simon, on three.js Journey. You can find it [here](https://threejs-journey.com/)
 
 ### Render Blender
-<div>
+<div align="center">
   <img src="img/woodbox.png" alt="Wood Box" width="1000px" height="auto">
 </div>
-<div>
+<div align="center">
   <img src="img/wood.png" alt="Wood" width="auto" height="146px">
   <img src="img/black.png" alt="Black" width="auto" height="146px">
   <img src="img/red.png" alt="Red" width="auto" height="146px">
