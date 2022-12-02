@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 html,
@@ -16,6 +17,10 @@ body {
     outline: none;
     z-index: -2;
     cursor: grab;
+}
+
+.webgl:active {
+    cursor: grabbing;
 }
 
 .nav {
@@ -255,7 +260,7 @@ a {
 }
 
 .progress-bar-container{
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -291,5 +296,45 @@ label{
     color: white;
     font-size: 2rem;
 }
+
+.handle{
+    position: fixed;
+    top: 20vh;
+    left: 7vw;
+    height: 20vh;
+    width: 15vw;
+}
+
+.handle h2{
+    color: white;
+    margin-bottom: 2.5vh;
+}
+
+.handle button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 79, 81);
+    border-radius: 10px;
+    height: 5vh;
+    margin-bottom: 2vh;
+    color: white;
+    cursor: pointer;
+    width: 15vw;
+    border: none;
+}
+
+.handle button:hover{
+    background-color: #6db778;
+}
+
+.handle button:active{
+    transform: scale(0.95);
+}
+
+.handle button:focus{
+    background-color: #6db778;
+}
+
 
 /*# sourceMappingURL=main.css.map*/
