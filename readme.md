@@ -53,7 +53,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]][product-url]
-<p align="center"><i>Last screenshot - 30/11/2022</i></p><br />
+<p align="center"><i>Last screenshot - 06/12/2022</i></p><br />
 For this project, I had to learn three.js and blender. I started with small tests here and there. After having the basics in three.js I started to develop the website, you can find the roadmap below. The website must have several features. We must be able to go around the tool, without crossing the ground and limiting the zoom. We must be able to customize the handle of the tool, as well as define the type of blade and select the dominant hand (right-handed, left-handed). The website must be available in French, English and German. The order button must redirect to the store with the configuration selected by the user. Finally an optimization work should be done to lower the loading time and increase the performance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
