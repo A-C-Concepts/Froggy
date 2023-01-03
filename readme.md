@@ -105,15 +105,18 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
 - [x] Learn the basics of blender
     - [x] Modeling the tool precisely
         - [ ] Modeling the last tool version
+          - [x] Curved and straight blade (sent by david)
+          - [ ] Drawing of the new handle by david / modeling on blender
+            - [ ] Improve textures and baked the file
     - [x] Create / Apply textures and shadings
     - [x] Create a scene with the tool and make a good quality rendering
     - [x] Exported the file in gltf
-        - [ ] Fix texture problem due to bad export parameter on blender
+        - [x] Fix texture problem due to bad export parameter on blender
 - [x] Learn three.js and develop the website
     - [x] Create the scene of three.js
     - [x] Import the 3D model
         - [x] Position the model in the center of the scene
-        - [ ] Fix texture problem due to bad export parameter on blender
+        - [x] Fix texture problem due to bad export parameter on blender
     - [x] Create the floor 
         - [x] Apply a dark wood plank texture
     - [x] Add camera
@@ -126,9 +129,10 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
         - [x] Add input range related to mouse scroll and Orbit Controls zoom
         - [x] Add the buttons to order
             - [ ] Link the button according to the selected configuration and redirect to the store
-        - [ ] Add the selector for the handle tool (if possible linked to the stick position in the scene)
+        - [x] Add the selector for the handle tool (if possible linked to the stick position in the scene)
         - [ ] Add a selector for the choice of the type of blade (if possible linked to the position of the blade in the scene)
         - [ ] Add a selector for the dominant hand (right-handed, left-handed)
+          - [ ] ⚠️ WARN ⚠️ Find a solution to change only the texture and not to load a new model each time
 - [x] Add a loading screen, linked to the loading of different 3D objects
 - [ ] Adapt the website for all devices
 
