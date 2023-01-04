@@ -132,7 +132,7 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
         - [x] Add the selector for the handle tool (if possible linked to the stick position in the scene)
         - [ ] Add a selector for the choice of the type of blade (if possible linked to the position of the blade in the scene)
         - [ ] Add a selector for the dominant hand (right-handed, left-handed)
-          - [ ] ⚠️ WARN ⚠️ Find a solution to change only the texture and not to load a new model each time
+          - [x] ⚠️ WARN ⚠️ Find a solution to change only the texture and not to load a new model each time
 - [x] Add a loading screen, linked to the loading of different 3D objects
 - [ ] Adapt the website for all devices
 
