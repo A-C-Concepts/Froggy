@@ -411,4 +411,3 @@ const tick = () =>
 }
 
 tick()
-console.warn('All website is ok');
