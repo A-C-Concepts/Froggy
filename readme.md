@@ -136,7 +136,7 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
 - [x] Add a loading screen, linked to the loading of different 3D objects
 - [ ] Adapt the website for all devices
 
-See the [open issues](https://github.com/A-C-Concepts/Froggy-Three/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/A-C-Concepts/Froggy/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ROSERAT Ugo - roserat.ugo@gmail.com
 
-Project Link: [https://github.com/A-C-Concepts/Froggy-Three](https://github.com/A-C-Concepts/Froggy-Three)
+Project Link: [https://github.com/A-C-Concepts/Froggy](https://github.com/A-C-Concepts/Froggy)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,14 +164,14 @@ Project Link: [https://github.com/A-C-Concepts/Froggy-Three](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/A-C-Concepts/Froggy-Three?style=for-the-badge
-[forks-url]: https://github.com/A-C-Concepts/Froggy-Three/network/members
-[stars-shield]: https://img.shields.io/github/stars/A-C-Concepts/Froggy-Three?style=for-the-badge
-[stars-url]: https://github.com/A-C-Concepts/Froggy-Three/stargazers
-[issues-shield]: https://img.shields.io/github/issues/A-C-Concepts/Froggy-Three?style=for-the-badge
-[issues-url]: https://github.com/A-C-Concepts/Froggy-Three/issues
-[license-shield]: https://img.shields.io/github/license/A-C-Concepts/Froggy-Three?style=for-the-badge
-[license-url]: https://github.com/A-C-Concepts/Froggy-Three/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/A-C-Concepts/Froggy?style=for-the-badge
+[forks-url]: https://github.com/A-C-Concepts/Froggy/network/members
+[stars-shield]: https://img.shields.io/github/stars/A-C-Concepts/Froggy?style=for-the-badge
+[stars-url]: https://github.com/A-C-Concepts/Froggy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/A-C-Concepts/Froggy?style=for-the-badge
+[issues-url]: https://github.com/A-C-Concepts/Froggy/issues
+[license-shield]: https://img.shields.io/github/license/A-C-Concepts/Froggy?style=for-the-badge
+[license-url]: https://github.com/A-C-Concepts/Froggy/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ugo-roserat/
 [product-screenshot]: img/screenshot.png
