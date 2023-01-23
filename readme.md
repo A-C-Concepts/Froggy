@@ -164,14 +164,14 @@ Project Link: [https://github.com/A-C-Concepts/Froggy](https://github.com/A-C-Co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/A-C-Concepts/Froggy-Three?style=for-the-badge
-[forks-url]: https://github.com/A-C-Concepts/Froggy-Three/network/members
-[stars-shield]: https://img.shields.io/github/stars/A-C-Concepts/Froggy-Three?style=for-the-badge
-[stars-url]: https://github.com/A-C-Concepts/Froggy-Three/stargazers
-[issues-shield]: https://img.shields.io/github/issues/A-C-Concepts/Froggy-Three?style=for-the-badge
-[issues-url]: https://github.com/A-C-Concepts/Froggy-Three/issues
-[license-shield]: https://img.shields.io/github/license/A-C-Concepts/Froggy-Three?style=for-the-badge
-[license-url]: https://github.com/A-C-Concepts/Froggy-Three/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/A-C-Concepts/Froggy-Three.js?style=for-the-badge
+[forks-url]: https://github.com/A-C-Concepts/Froggy-Three.js/network/members
+[stars-shield]: https://img.shields.io/github/stars/A-C-Concepts/Froggy-Three.js?style=for-the-badge
+[stars-url]: https://github.com/A-C-Concepts/Froggy-Three.js/stargazers
+[issues-shield]: https://img.shields.io/github/issues/A-C-Concepts/Froggy-Three.js?style=for-the-badge
+[issues-url]: https://github.com/A-C-Concepts/Froggy-Three.js/issues
+[license-shield]: https://img.shields.io/github/license/A-C-Concepts/Froggy-Three.js?style=for-the-badge
+[license-url]: https://github.com/A-C-Concepts/Froggy-Three.js/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ugo-roserat/
 [product-screenshot]: img/screenshot.png
