@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/A-C-Concepts/Froggy">
+  <a href="https://github.com/A-C-Concepts/Froggy-Three.js">
     <img src="img/logo.png" alt="Logo" width="auto" height="150px">
   </a>
 
@@ -136,7 +136,7 @@ I learned and I learn three.js with the courses of bruno simon, on three.js Jour
 - [x] Add a loading screen, linked to the loading of different 3D objects
 - [ ] Adapt the website for all devices
 
-See the [open issues](https://github.com/A-C-Concepts/Froggy/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/A-C-Concepts/Froggy-Three.js/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ROSERAT Ugo - roserat.ugo@gmail.com
 
-Project Link: [https://github.com/A-C-Concepts/Froggy](https://github.com/A-C-Concepts/Froggy)
+Project Link: [https://github.com/A-C-Concepts/Froggy-Three.js](https://github.com/A-C-Concepts/Froggy-Three.js)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
