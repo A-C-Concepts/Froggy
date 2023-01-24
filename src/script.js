@@ -5,6 +5,8 @@ import * as dat from 'lil-gui'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'
 
+
+var objHidden = true;
 /**
  * Loading Progress Bar
  */
@@ -156,9 +158,45 @@ gltfLoader.load(
 )
 
 const lamebakedTexture = textureLoader.load('texture/bakedlames2.jpg')
+const lamebakedStreightTexture = textureLoader.load('texture/bakedlames.jpg')
 const lamebakedMaterial = new THREE.MeshBasicMaterial({ map: lamebakedTexture })
 lamebakedTexture.flipY = false
 lamebakedTexture.encoding = THREE.sRGBEncoding
+gltfLoader.load(
+    'models/lame.glb',
+    (lamebase) => {
+        lamebase.scene.traverse((child) => {
+            child.material = lamebakedMaterial
+        })
+        gui.add(gltf.scene.position, 'x').min(- 5).max(5)
+        gui.add(gltf.scene.position, 'z').min(- 5).max(5)
+        gui.add(gltf.scene.position, 'y').min(- 5).max(5)
+
+        gui.add(gltf.scene.rotation, 'x').min(- 1).max(5)
+        gui.add(gltf.scene.rotation, 'z').min(- 1).max(5)
+        gui.add(gltf.scene.rotation, 'y').min(- 5).max(5)
+
+        lamebase.scene.scale.set(-0.35, 0.35, 0.35)
+
+        lamebase.scene.position.x = - 0.2
+        lamebase.scene.position.z = 1.85
+        lamebase.scene.position.y = 0.96
+
+        lamebase.scene.rotation.x = 2.98
+        lamebase.scene.rotation.z = - 0.234
+        lamebase.scene.rotation.y = 4.75
+
+        document.getElementById("curved").addEventListener("click", function(){
+            scene.remove(lamebase.scene)
+        });
+        document.getElementById("streight").addEventListener("click", function(){
+            scene.remove(lamebase.scene)
+        });
+
+        scene.add(lamebase.scene)
+    }
+)
+
 gltfLoader.load(
     'models/lame.glb',
     (gltf) => {
@@ -174,7 +212,6 @@ gltfLoader.load(
         gui.add(gltf.scene.rotation, 'y').min(- 5).max(5)
 
         gltf.scene.scale.set(-0.35, 0.35, 0.35)
-        gltf.scene.name = 'lame';
 
         gltf.scene.position.x = - 0.2
         gltf.scene.position.z = 1.85
@@ -184,70 +221,49 @@ gltfLoader.load(
         gltf.scene.rotation.z = - 0.234
         gltf.scene.rotation.y = 4.75
 
-        scene.add(gltf.scene)
+        scene.remove(gltf.scene)
+        document.getElementById("curved").addEventListener("click", function(){
+            scene.add(gltf.scene)
+        });
+        document.getElementById("streight").addEventListener("click", function(){
+            scene.remove(gltf.scene)
+        });
     }
 )
 
-// Change model on click (lame)
-const lamecurvedbutton = document.getElementById('curved');
-lamecurvedbutton.addEventListener('click', function () {
-    const lamebakedTexture = textureLoader.load('texture/bakedlames2.jpg')
-    const lamebakedMaterial = new THREE.MeshBasicMaterial({ map: lamebakedTexture })
-    lamebakedTexture.flipY = false
-    lamebakedTexture.encoding = THREE.sRGBEncoding
-    gltfLoader.load(
-        'models/lame.glb',
-        (gltf) => {
-            gltf.scene.traverse((child) => {
-                child.material = lamebakedMaterial
-            })
-            gltf.scene.scale.set(-0.35, 0.35, 0.35)
-            gltf.scene.name = 'lame';
+gltfLoader.load(
+    'models/lamedroite.glb',
+    (gltf) => {
+        gltf.scene.traverse((child) => {
+            child.material = lamebakedMaterial
+        })
+        gui.add(gltf.scene.position, 'x').min(- 5).max(5)
+        gui.add(gltf.scene.position, 'z').min(- 5).max(5)
+        gui.add(gltf.scene.position, 'y').min(- 5).max(5)
 
-            gltf.scene.position.x = - 0.2
-            gltf.scene.position.z = 1.85
-            gltf.scene.position.y = 0.96
+        gui.add(gltf.scene.rotation, 'x').min(- 1).max(5)
+        gui.add(gltf.scene.rotation, 'z').min(- 1).max(5)
+        gui.add(gltf.scene.rotation, 'y').min(- 5).max(5)
 
-            gltf.scene.rotation.x = 2.98
-            gltf.scene.rotation.z = - 0.234
-            gltf.scene.rotation.y = 4.75
-            const object = scene.getObjectByName('lame');
-            scene.remove(object)
-            console.log(scene.children.length);
-            scene.add(gltf.scene);
-        }
-    )
-});
+        gltf.scene.scale.set(-0.35, 0.35, 0.35)
 
-const lamestreightbutton = document.getElementById('streight');
-lamestreightbutton.addEventListener('click', function () {
-    const lamebakedTexture = textureLoader.load('texture/bakedlames2.jpg')
-    const lamebakedMaterial = new THREE.MeshBasicMaterial({ map: lamebakedTexture })
-    lamebakedTexture.flipY = false
-    lamebakedTexture.encoding = THREE.sRGBEncoding
-    gltfLoader.load(
-        'models/lamedroite.glb',
-        (gltf) => {
-            gltf.scene.traverse((child) => {
-                child.material = lamebakedMaterial
-            })
-            gltf.scene.scale.set(-0.35, 0.35, 0.35)
-            gltf.scene.name = 'lame';
+        gltf.scene.position.x = - 0.2
+        gltf.scene.position.z = 1.85
+        gltf.scene.position.y = 0.96
 
-            gltf.scene.position.x = - 0.209
-            gltf.scene.position.z = 1.85
-            gltf.scene.position.y = 0.96
+        gltf.scene.rotation.x = 2.98
+        gltf.scene.rotation.z = - 0.234
+        gltf.scene.rotation.y = 4.75
 
-            gltf.scene.rotation.x = 2.98
-            gltf.scene.rotation.z = - 0.234
-            gltf.scene.rotation.y = 4.75
-            const object = scene.getObjectByName('lame');
-            scene.remove(object)
-            console.log(scene.children.length);
-            scene.add(gltf.scene);
-        }
-    )
-});
+        scene.remove(gltf.scene)
+        document.getElementById("streight").addEventListener("click", function(){
+            scene.add(gltf.scene)
+        });
+        document.getElementById("curved").addEventListener("click", function(){
+            scene.remove(gltf.scene)
+        });
+    }
+)
 
 
 //Change texture on click
