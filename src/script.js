@@ -213,7 +213,6 @@ gltfLoader.load(
         gltf.scene.rotation.z = - 0.234
         gltf.scene.rotation.y = 4.75
 
-        scene.remove(gltf.scene)
         document.getElementById("streight").addEventListener("click", function(){
             scene.add(gltf.scene)
         });
