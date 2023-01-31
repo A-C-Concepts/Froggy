@@ -20,10 +20,4 @@ export default class World
             this.environment = new Environment()
         })
     }
-
-    update()
-    {
-        if(this.handle)
-            this.handle.update()
-    }
 }

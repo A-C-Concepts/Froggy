@@ -22,7 +22,7 @@ export default class Froggy
         instance = this
 
         // Global access
-        window.froggy = this
+        window.experience = this
 
         // Options
         this.canvas = canvas
