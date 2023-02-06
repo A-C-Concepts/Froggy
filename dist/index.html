@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+            src='https://kit.fontawesome.com/225c454101.js'
+            crossorigin="anonymous"
+    ></script>
+    
+    <title>Froggy website three.js</title>
+  <script type="module" crossorigin src="./assets/index-e956a35b.js"></script>
+  <link rel="stylesheet" href="./assets/index-3e63a17a.css">
+</head>
+<body id="body">
+<div class="nav">
+    <div class="logo"></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">À Propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="handle wcd" id="idfrog">
+    <h2>Manches</h2>
+    <button class="selector" id="wood">Bois</button>
+    <button class="selector" id="red">Micarta Rouge</button>
+    <button class="selector" id="black">Micarta Noir</button>
+</div>
+
+<div class="blade">
+    <h2>Lames</h2>
+    <button class="selector" id="curved">Courbe</button>
+    <button class="selector" id="streight">Droite</button>
+</div>
+
+<label id="zoom">
+    <input type="range" min="3" max="8" value="4" step="0.01" />
+</label>
+
+<div class="price" id="price">
+    <h2>250<span>€</span></h2>
+    <div class="commander"><span>Commander &nbsp;</span></div>
+</div>
+
+<div class="footer">
+    <div class="logofoot"></div>
+    <div class="lang">
+        <ul>
+            <li><a href="">🇫🇷 FR</a></li>
+            <li><p>|</p></li>
+            <li><a href="">🇬🇧 UK</a></li>
+            <li><p>|</p></li>
+            <li><a href="">🇩🇪 DE</a></li>
+        </ul>
+    </div>
+    <div class="redirect">
+        <ul>
+            <li><a href="https://www.acr-concept.com/fr">ACR</a></li>
+            <li><p>|</p></li>
+            <li><a href="https://www.hippotypose.fr/">Hippotypose</a></li>
+        </ul>
+    </div>
+    <div class="mentions">
+        <ul>
+            <li><a href="">À propos</a></li>
+            <li><p>|</p></li>
+            <li><a href="">Contact</a></li>
+            <li><p>|</p></li>
+            <li><a href="">Personnalisation</a></li>
+            <li><p>|</p></li>
+            <li><a href="#">Mentions Légal</a></li>
+        </ul>
+    </div>
+    <div class="social">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/acr.aluminium.horseshoes/"
+                ><i class="fa-brands fa-instagram"></i
+                ></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Acraluminiumhorseshoes/"
+                ><i class="fa-brands fa-square-facebook"></i
+                ></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<canvas class="webgl"></canvas>
+<div class="progress-bar-container">
+    <div class="logoloading"></div>
+    <progress id="progress-bar" value="0" max="100"></progress>
+</div>
+
+</body>
+</html>
