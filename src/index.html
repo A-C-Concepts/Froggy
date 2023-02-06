@@ -34,10 +34,6 @@
     <button class="selector" id="streight">Droite</button>
 </div>
 
-<label id="zoom">
-    <input type="range" min="3" max="8" value="4" step="0.01" />
-</label>
-
 <div class="price" id="price">
     <h2>250<span>€</span></h2>
     <div class="commander"><span>Commander &nbsp;</span></div>
@@ -88,9 +84,9 @@
     </div>
 </div>
 <canvas class="webgl"></canvas>
-<div class="progress-bar-container">
+<div id="progress-bar-display" class="progress-bar-container">
     <div class="logoloading"></div>
-    <progress id="progress-bar" value="0" max="100"></progress>
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 </div>
 <script type="module" src="./script.js"></script>
 </body>

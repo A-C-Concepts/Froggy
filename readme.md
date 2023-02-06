@@ -3,7 +3,7 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Netlify Status][netlify-shield]][netlify-url]
+[![Vercel Status][vercel-shield]][vercel-url]
 [![Issues][issues-shield]][issues-url]
 [![Stars][stars-shield]][stars-url]
 [![Coffee][coffee-shield]][coffee-url]
@@ -188,8 +188,8 @@ Project Link: [https://github.com/A-C-Concepts/Froggy-Three.js](https://github.c
 [javascript-url]: https://www.javascript.com/
 [coffee-shield]: https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black
 [coffee-url]: https://www.buymeacoffee.com/RoseratUgo
-[netlify-shield]: https://img.shields.io/netlify/b3e75b20-cb15-416e-93d8-6932fc619e36?style=for-the-badge
-[netlify-url]: https://app.netlify.com/sites/acr-froggy/deploys
+[vercel-shield]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[vercel-url]: https://froggy-liart.vercel.app/
 [threejs-shield]: https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white
 [threejs-url]: https://threejs.org/
 [blender-shield]: https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white

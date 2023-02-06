@@ -20,6 +20,15 @@ export default class World
             this.handle = new Handle()
             this.blades = new Blades()
             this.environment = new Environment()
+
+            this.hideLoadingScreen()
         })
+
     }
+
+    hideLoadingScreen() {
+        this.progressBar = document.getElementById('progress-bar-display')
+        this.progressBar.style.display = 'none'
+    }
+
 }
