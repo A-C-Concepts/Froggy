@@ -1,7 +1,9 @@
 import './style.css'
 import Froggy from  './Froggy/Froggy.js'
+import Blades from './Froggy/World/Blades';
 
 const froggy = new Froggy(document.querySelector('canvas.webgl'))
+const blades = new Blades();
 
 // import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'

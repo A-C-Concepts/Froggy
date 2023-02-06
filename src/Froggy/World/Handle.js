@@ -17,22 +17,43 @@ export default class Handle {
         this.gltfLoader.setDRACOLoader(this.dracoLoader)
 
         this.textureLoader = new THREE.TextureLoader()
-        this.texture = this.textureLoader.load('/texture/plank.jpeg')
-        this.texture.repeat.set( 8, 8)
-        this.texture.wrapS = THREE.RepeatWrapping
-        this.texture.wrapT = THREE.RepeatWrapping
-
 
         this.setModel()
+
+        const woodbutton = document.getElementById('wood');
+        woodbutton.addEventListener('click', () => {
+            const texture = new THREE.TextureLoader().load('/texture/woodhandletexture.jpg');
+            texture.flipY = false;
+            texture.encoding = THREE.sRGBEncoding;
+            this.bakedMaterial.map = texture;
+        });
+
+        const blackbutton = document.getElementById('black');
+        blackbutton.addEventListener('click', () => {
+            const texture = new THREE.TextureLoader().load('/texture/blackhandletexture.jpg');
+            texture.flipY = false;
+            texture.encoding = THREE.sRGBEncoding;
+            this.bakedMaterial.map = texture;
+        });
+
+        const nrbutton = document.getElementById('red');
+        nrbutton.addEventListener('click', () => {
+            const texture = new THREE.TextureLoader().load('/texture/nrhandletexture.jpg');
+            texture.flipY = false;
+            texture.encoding = THREE.sRGBEncoding;
+            this.bakedMaterial.map = texture;
+        });
     }
 
+
     setModel() {
-        this.bakedTexture = this.textureLoader.load('/texture/newbaked.jpg')
+        this.textureLoader = new THREE.TextureLoader()
+        this.bakedTexture = this.textureLoader.load('/texture/greenhandletexture.jpg')
         this.bakedMaterial = new THREE.MeshBasicMaterial({ map: this.bakedTexture })
         this.bakedTexture.flipY = false
         this.bakedTexture.encoding = THREE.sRGBEncoding
         this.gltfLoader.load(
-            '/models/NewFroggy/newFroggy.glb',
+            '/models/NewFroggy/handleFroggy.glb',
             (gltf) => {
                 gltf.scene.traverse((child) => {
                     child.material = this.bakedMaterial

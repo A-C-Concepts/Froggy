@@ -6,6 +6,7 @@ import Renderer from "./Renderer.js";
 import World from "./World/World.js";
 import Debug from "./Utils/Debug.js";
 import Resources from "./Utils/Resources.js";
+import Blades from "./World/Blades";
 
 import sources from './sources.js'
 
@@ -36,6 +37,7 @@ export default class Froggy
         this.camera = new Camera()
         this.renderer = new Renderer()
         this.world = new World()
+        this.blades = new Blades()
 
         // Sizes resize event
         this.sizes.on('resize', () =>
