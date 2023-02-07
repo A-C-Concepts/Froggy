@@ -22,8 +22,6 @@ export default class Blades
         this.curvedButton = document.getElementById("curved");
         this.streightButton = document.getElementById("streight");
         this.selectedModel = null;
-        this.rightModel = "true";
-
 
         this.loadCurvedBlade();
 
