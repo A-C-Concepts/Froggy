@@ -22,6 +22,8 @@ export default class Blades
         this.curvedButton = document.getElementById("curved");
         this.streightButton = document.getElementById("streight");
         this.selectedModel = null;
+        this.rightModel = "true";
+
 
         this.loadCurvedBlade();
 
@@ -30,6 +32,19 @@ export default class Blades
         });
         this.streightButton.addEventListener("click", () => {
             this.loadStreightBlade();
+        });
+
+        this.rightButton = document.getElementById("right");
+        this.leftButton = document.getElementById("left");
+
+        this.rightButton.addEventListener("click", () => {
+            this.selectedModel.scale.z = 2;
+            this.selectedModel.position.x = 0;
+        });
+
+        this.leftButton.addEventListener("click", () => {
+            this.selectedModel.scale.z = -2;
+            this.selectedModel.position.x = -0.435;
         });
     }
 
