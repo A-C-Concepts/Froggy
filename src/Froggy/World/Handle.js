@@ -43,12 +43,19 @@ export default class Handle {
             texture.encoding = THREE.sRGBEncoding;
             this.bakedMaterial.map = texture;
         });
+        const greenbutton = document.getElementById('green');
+        greenbutton.addEventListener('click', () => {
+            const texture = new THREE.TextureLoader().load('/texture/greenhandletexture.jpg');
+            texture.flipY = false;
+            texture.encoding = THREE.sRGBEncoding;
+            this.bakedMaterial.map = texture;
+        });
     }
 
 
     setModel() {
         this.textureLoader = new THREE.TextureLoader()
-        this.bakedTexture = this.textureLoader.load('/texture/greenhandletexture.jpg')
+        this.bakedTexture = this.textureLoader.load('/texture/woodhandletexture.jpg')
         this.bakedMaterial = new THREE.MeshBasicMaterial({ map: this.bakedTexture })
         this.bakedTexture.flipY = false
         this.bakedTexture.encoding = THREE.sRGBEncoding
