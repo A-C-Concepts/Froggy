@@ -82,12 +82,14 @@ h2{
     border: 2px white solid;
     width: 45px;
     height: 45px;
+}
+.handle-button:not(:last-child){
     margin-right: 20px;
 }
 
 .handle-button:nth-child(1){
     background-image: url("../static/img/wood.webp");
-    background-size: cover;
+    background-size: 500%;
     background-position: center;
 }
 .handle-button:nth-child(2){
@@ -112,11 +114,32 @@ h2{
 .list-handle-button{
     display: flex;
     padding-top: 20px;
+    justify-content: space-between;
     align-content: center;
 }
 
+.blades-button{
+    border: none;
+    background-color: #6db778;
+    height: 40px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
 
+.blades-button:nth-child(1){
+    margin-right: 20px;
+}
 
+.list-blades-button{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
 .progress-bar-container{
     position: fixed;
