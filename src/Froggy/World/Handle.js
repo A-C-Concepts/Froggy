@@ -65,7 +65,11 @@ export default class Handle {
                 gltf.scene.traverse((child) => {
                     child.material = this.bakedMaterial
                 })
+                gltf.scene.traverse( function( node ) {
+                    if ( node.isMesh ) { node.castShadow = true; }
+                } );
                 gltf.scene.scale.set(2, 2, 2)
+                gltf.castShadow = true
                 gltf.scene.rotation.y = 1.6
                 this.scene.add(gltf.scene)
             }

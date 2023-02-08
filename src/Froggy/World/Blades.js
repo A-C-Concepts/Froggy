@@ -62,6 +62,9 @@ export default class Blades
                 this.selectedModel.traverse((child) => {
                     child.material = this.lamebakedMaterial;
                 });
+                this.selectedModel.traverse( function( node ) {
+                    if ( node.isMesh ) { node.castShadow = true; }
+                } );
                 this.selectedModel.scale.set(2, 2, 2);
                 this.selectedModel.rotation.y = 1.6;
                 this.scene.add(this.selectedModel);
@@ -83,6 +86,9 @@ export default class Blades
                 this.selectedModel.traverse((child) => {
                     child.material = this.bakedMaterial;
                 });
+                this.selectedModel.traverse( function( node ) {
+                    if ( node.isMesh ) { node.castShadow = true; }
+                } );
                 this.selectedModel.scale.set(2, 2, 2);
                 this.selectedModel.rotation.y = 1.6;
                 this.scene.add(this.selectedModel);
